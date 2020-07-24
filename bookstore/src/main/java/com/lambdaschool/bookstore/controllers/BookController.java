@@ -92,6 +92,7 @@ public class BookController
     }
 
     // DELETE http://localhost:2019/books/book/1
+    @PreAuthorize("hasAnyRole('ADMIN')")
     @DeleteMapping(value = "/book/{id}")
     public ResponseEntity<?> deleteBookById(
             @PathVariable
