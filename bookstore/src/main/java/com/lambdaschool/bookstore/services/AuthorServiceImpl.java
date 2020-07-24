@@ -78,7 +78,7 @@ public class AuthorServiceImpl
         {
             throw new ResourceFoundException("Wrotes are not updated through Author.");
         }
-
+        
         if (author.getFname() != null)
         {
             currentAuthor.setFname(author.getFname());
