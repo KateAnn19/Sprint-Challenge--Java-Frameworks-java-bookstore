@@ -109,8 +109,5 @@ public class BookServiceImplTest
     {
     }
 
-    @Test
-    public void g_deleteAll()
-    {
-    }
+
 }

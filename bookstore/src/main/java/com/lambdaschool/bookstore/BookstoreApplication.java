@@ -78,4 +78,4 @@ public class BookstoreApplication
 //    I used Heroku to deploy my application. I had to add a new config file and some application properties
 //    as well as a Heroku plugin to my POM file and postgresSql dependency. I deployed to Heroku
 //    using the CLI and then connected the application in my POM file using the name of the application
-//    I used in created my new Heroku application 
+//    I used in created my new Heroku application
